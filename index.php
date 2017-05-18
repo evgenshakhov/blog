@@ -6,7 +6,7 @@
  * Time: 22:00
  */
 
-echo "Hello world!!";
+/*echo "Hello world!!";
 echo "<br>";
 
 echo time();
@@ -39,4 +39,9 @@ function fac($param){
     }
 }
 
-echo "$b! = ".fac($b);
+echo "$b! = ".fac($b);*/
+///////////////////////////////////////////////////
+    require_once ("database.php");
+    require_once ("models/articles.php");
+
+    $articles = articles_all();
