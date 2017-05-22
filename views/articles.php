@@ -11,12 +11,12 @@
     <h1>
         Мой Первый Блог
     </h1>
+    <a href="admin">Панель администратора</a>
     <div>
         <?php foreach ($articles as $a): ?>
         <div class="articale">
             <h3>
-<!--                --><?//=$article['title']?>
-                <a href="article.php?id=<?=$a['id']?>"<?=$a['title']?></a>
+                <a href="article.php?id=<?=$a['id']?>"><?=$a['title']?></a>
             </h3>
             <em>
                 Опубликовано: <?=$a['date']?>
@@ -26,18 +26,7 @@
             </p>
         </div>
         <?php endforeach ?>
-        <!--        <div class="articale">
-                    <h3>
-                        PHP
-                    </h3>
-                    <em>
-                        Опубликовано: 2017-05-17
-                    </em>
-                    <p>
-                        Most popular web-lang.
-                    </p>
-                </div>-->
-    </div>
+     </div>
     <footer>
         <p>
             Мой первый блог<br>

@@ -23,17 +23,6 @@
                 <?=$article['content']?>
             </p>
         </div>
-<!--        <div class="articale">
-            <h3>
-                PHP
-            </h3>
-            <em>
-                Опубликовано: 2017-05-17
-            </em>
-            <p>
-                Most popular web-lang.
-            </p>
-        </div>-->
     </div>
     <footer>
         <p>

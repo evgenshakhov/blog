@@ -1,0 +1,8 @@
+AuthType Basic
+AuthName "Admin Panel"
+AuthUserFile /var/www/blog/admin/.htpasswd
+Require valid-user
+
+## nginx configuration
+#auth_basic "Admin Panel";
+#auth_basic_user_file /var/www/blog/admin/.htpasswd;
