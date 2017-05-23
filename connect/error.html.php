@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Output</title>
+    <title>Errors</title>
 </head>
 <body>
     <p>
-        <?php echo $output; ?>
+        <?php echo $error; ?>
     </p>
 </body>
 </html>
